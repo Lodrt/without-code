@@ -84,3 +84,13 @@ et voila mon secret monsecret et associé à la variable d'environnement EXAMPLE
 automatiquement on a comme environnements : production | preview | development 
 
 ces environnements nous permettent de partionner nos travaux et donc de garder tout ce qui touche au developpement dans l'environnement de dev etc.
+
+### Question  18
+
+https://without-code-ten.vercel.app/
+
+### Question 19
+
+les pull request sont une fonctionnalité facilitant la collaboration : c'est une demande de pull 
+
+
