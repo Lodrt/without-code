@@ -94,3 +94,31 @@ https://without-code-ten.vercel.app/
 les pull request sont une fonctionnalité facilitant la collaboration : c'est une demande de pull 
 
 
+voir screenshoot.png
+
+vercel deploie automatiquement la pull request sur le projet angular et whitour-code sur un environnement de priview
+
+
+### Question 20 
+
+une fois la pull requuest approuvée l'environnemnet de production est alors trigger.
+
+### Question 21 
+
+l'environnement de producution correspond à la branch main (on peut choisir la branch dans les réglages).
+l'intérêt d'utiliser les pull requests sur un projet est de pouvoir tester le code dans des preview pour pouvoir savoir comment celui-ci réagis et s'il ne pose pas de problèmes avant de le passer en production (donc de le merge sur la branche principale).
+
+Le workflow est donc : création d'une branch / développment de la feature / push sur github / pull request / tests / validation / merge
+
+### Question 22
+
+Le serverless est un modèle de cloud computing dans lequel le client peut créer / executer ses applications sans se soucier de la partie infrastructure et notamment la partie serveur. 
+Evidemment cela continue de s'éxecuter sur un serveur mais le développeur doit juste fournir son code et tout le reste est à la charge du fournisseur du service cloud. 
+L'intérêt est donc que le développeur va pouvoir se concentrer uniquement sur son travail. 
+
+Pour rentrer dans le modèle serverless : le code d'éxecution doit être décomposer en fonction.
+C'est l'ensemble de ces fonctions qui constitue l'application : Function As A Service : FAAS.
+
+Les fonctions sont déclanchées par des événements. Exemple : Déclencheur -> requête http
+
+
